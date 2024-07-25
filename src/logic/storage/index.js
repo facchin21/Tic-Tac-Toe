@@ -1,4 +1,3 @@
-import { POINTS_WINNER, TURNS } from "../../constants"
 
 export const saveGameToStorage = ({ board, turn}) => {    
     window.localStorage.setItem('board', JSON.stringify(board))
@@ -10,14 +9,12 @@ export const resetGameStorage = () => {
     window.localStorage.removeItem('turn')
 }
 
-export const savePointsToStorage = (point) =>{
-    if(point !== null){
-        if(point === TURNS.X){
-            window.localStorage.setItem('pointX',
-                 POINTS_WINNER.totalWinnerX ++)
-        }else if(point === TURNS.O){
-            window.localStorage.setItem('pointO',
-                POINTS_WINNER.totalWinnerO ++ )
-        }
-    }
+export const savePointsToStorage = (points) => {
+    window.localStorage.setItem('pointX', points['×'])
+    window.localStorage.setItem('pointO', points['○'])
+}
+
+export const resetPointsToStorage = () =>{
+    window.localStorage.removeItem('pointX')
+    window.localStorage.removeItem('pointO')
 }

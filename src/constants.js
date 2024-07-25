@@ -13,8 +13,3 @@ export const WINNER_COMBOS = [
     [0,4,8],
     [2,4,6]
 ]
-
-export const POINTS_WINNER = {
-     totalWinnerX : 0,
-     totalWinnerO : 0
-}

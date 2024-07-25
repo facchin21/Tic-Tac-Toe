@@ -1,4 +1,4 @@
-import { TURNS ,WINNER_COMBOS, POINTS_WINNER } from "../constants";
+import { WINNER_COMBOS } from "../constants";
 
 export const checkEndGame = (newBoard) =>{
     return newBoard.every((square) => square !== null)
@@ -16,15 +16,5 @@ export const checkWinner = (boardToCheck) =>{
       }
     }
     return null
-}
-
-export const totalWinner = (winner) =>{
-  if(winner !== null){
-    if(winner === TURNS.X){
-      POINTS_WINNER.totalWinnerX++;
-    }else{
-      POINTS_WINNER.totalWinnerO++;
-    }
-  }
 }
 
