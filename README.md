@@ -18,3 +18,7 @@ Además de las características básicas del juego, este proyecto incluye una fu
 - **React**
 - **JavaScript**
 - **CSS**
+
+## Demo
+
+Puedes probar la aplicación en vivo aquí: [Demo del Tic Tac Toe](https://tictactoe021.netlify.app/)
