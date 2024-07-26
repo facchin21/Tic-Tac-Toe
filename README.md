@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-Un juego de Tic Tac Toe creado con React. Este proyecto se desarrolló como parte del curso [Curso de React desde cero](https://www.youtube.com/watch?v=qkzcjwnueLA&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=12&ab_channel=midulive) de midudev. 
+Un juego de Tic Tac Toe creado con React. Este proyecto se desarrolló como parte del curso [Curso de React desde cero](https://www.youtube.com/watch?v=qkzcjwnueLA&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=12&ab_channel=midulive) de midudev.
 
 ## Características
 
@@ -8,10 +8,12 @@ Un juego de Tic Tac Toe creado con React. Este proyecto se desarrolló como part
 - Interfaz simple y fácil de usar.
 - Contador de puntos para llevar un registro de las victorias.
 
-- ## Funcionalidades Adicionales
+## Funcionalidades Adicionales
 
-Además de las características básicas del juego, este proyecto incluye una funcionalidad extra:
+Además de las características básicas del juego, este proyecto incluye funcionalidades extra:
+
 - **Contador de puntos finales**: Permite llevar un registro de cuántas veces ha ganado cada jugador.
+- **Cambio de cursor según el turno**: El cursor cambia según el turno correspondiente, mostrando de quién es el turno actual.
 
 ## Tecnologías Utilizadas
 
@@ -22,3 +24,4 @@ Además de las características básicas del juego, este proyecto incluye una fu
 ## Demo
 
 Puedes probar la aplicación en vivo aquí: [Demo del Tic Tac Toe](https://tictactoe021.netlify.app/)
+
