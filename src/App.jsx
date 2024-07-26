@@ -8,6 +8,7 @@ import { TURNS } from './constants'
 import { useState } from 'react'
 import './App.css'
 import { Points } from './components/Points'
+import { MouseFollower } from './components/MouseFollower'
 
 function App() {
   const title = 'Tic Tac Toe'
@@ -82,6 +83,7 @@ function App() {
       <Points pointX={points[TURNS.X]} pointO={points[TURNS.O]}/>
       <WinnerModal winner={winner} resetGame={resetGame}/>
       <button onClick={resetPoints}>Reset de puntos</button>
+      <MouseFollower turn={turn} setTurn={setTurn}/>
     </main>
   )
 }
